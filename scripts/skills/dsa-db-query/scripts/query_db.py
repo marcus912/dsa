@@ -2,7 +2,10 @@ import json
 import sys
 import os
 
-DB_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "database.json")
+current_dir = os.path.dirname(os.path.abspath(__file__))
+while current_dir != '/' and not os.path.exists(os.path.join(current_dir, "database.json")):
+    current_dir = os.path.dirname(current_dir)
+DB_PATH = os.path.join(current_dir, "database.json")
 
 def load_db():
     if not os.path.exists(DB_PATH):
