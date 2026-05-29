@@ -26,9 +26,9 @@ Explore all combinations (Backtracking) vs. making the locally optimal choice (G
 *   N-Queens (ID: 51) - *Hard*
 *   Jump Game (ID: 55)
 
-## Week 12: Review & Mock Interviews
+## Week 12: Review & Technical Evaluation
 Focus on speed, communication, and tackling unseen problems under time pressure.
 *   Revisit any weak areas from Months 1-3.
-*   Do a mock interview 2-3 times this week. Use a timer (45 minutes per problem).
+*   Do a mock review 2-3 times this week. Use a timer (45 minutes per problem).
 *   Focus on communicating your thought process out loud before writing code.
 *   **Key Hard Problems to review:** Trapping Rain Water (ID: 42), Minimum Window Substring (ID: 76), Serialize and Deserialize Binary Tree (ID: 297).

@@ -26,7 +26,7 @@ def show_stats(db):
     total = len(db)
     solved = sum(1 for p in db if p.get("status") == "solved")
     
-    table = Table(title="📊 DSA Preparation Statistics", show_header=True, header_style="bold magenta")
+    table = Table(title="📊 Algorithms Progress Statistics", show_header=True, header_style="bold magenta")
     table.add_column("Metric", style="cyan")
     table.add_column("Value", justify="right")
     
@@ -82,7 +82,7 @@ def pick_problem(db, difficulty=None, top_n=50):
     content += f"[bold]URL:[/] [link={chosen['url']}]{chosen['url']}[/link]"
 
     console.print(Panel(content, title="🎯 Suggested Problem", expand=False, border_style="bold blue"))
-    console.print(f"\nRun [bold green]uv run scripts/dsa.py solve {chosen['id']}[/] to mark it as solved!")
+    console.print(f"\nRun [bold green]uv run scripts/algo.py solve {chosen['id']}[/] to mark it as solved!")
 
 def solve_problem(db, pid_or_url):
     target = None
@@ -106,7 +106,7 @@ def solve_problem(db, pid_or_url):
     console.print(f"✅ [bold green]Awesome job![/] Marked '{target['title']}' as [bold]SOLVED[/].")
 
 def main():
-    parser = argparse.ArgumentParser(description="Google DSA Interview Preparation CLI")
+    parser = argparse.ArgumentParser(description="Algorithms Study Lab CLI")
     subparsers = parser.add_subparsers(dest="command", help="Available commands")
     
     subparsers.add_parser("stats", help="Show current progress statistics")

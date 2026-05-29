@@ -1,6 +1,6 @@
 # Month 2: Core Structures & Search
 
-**Goal:** Move beyond linear structures. Master hierarchical data and efficient searching techniques, which are heavily favored in Google interviews.
+**Goal:** Move beyond linear structures. Master hierarchical data and efficient searching techniques, which are frequently evaluated in technical reviews.
 
 ## Week 5: Stacks & Queues (incl. Monotonic Stack)
 Understand LIFO/FIFO and use stacks to keep track of previous states.

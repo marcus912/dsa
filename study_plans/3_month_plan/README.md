@@ -1,6 +1,6 @@
-# 3-Month Google DSA Study Plan
+# 3-Month Algorithms Study Plan
 
-This comprehensive 3-month plan is designed to build a deep understanding of Data Structures and Algorithms, culminating in readiness for Google's engineering interviews. 
+This comprehensive 3-month plan is designed to build a deep understanding of Data Structures and Algorithms, culminating in technical readiness. 
 
 ## Structure
 The plan is divided into three distinct phases, each focusing on building upon the previous one.
@@ -23,5 +23,5 @@ The plan is divided into three distinct phases, each focusing on building upon t
 1.  **Read the Topic:** Briefly review the theoretical concepts for the week's topics.
 2.  **Solve Problems:** Implement solutions in the `solutions/` directory (e.g., `solutions/1-two-sum.py`).
 3.  **Analyze Complexity:** Always write the Time and Space complexity in your docstring.
-4.  **Mark Solved:** Use the CLI to track progress: `uv run scripts/dsa.py solve <ID>`
-5.  **Review:** Use `uv run scripts/dsa.py stats` to ensure you are hitting your goals.
+4.  **Mark Solved:** Use the CLI to track progress: `uv run scripts/algo.py solve <ID>`
+5.  **Review:** Use `uv run scripts/algo.py stats` to ensure you are hitting your goals.

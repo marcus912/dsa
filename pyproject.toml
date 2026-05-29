@@ -1,7 +1,7 @@
 [project]
-name = "dsa-practice"
+name = "algorithm-study"
 version = "0.1.0"
-description = "Add your description here"
+description = "Data Structures and Algorithms study lab"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

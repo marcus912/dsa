@@ -1,4 +1,5 @@
 # Month 1: Fundamentals & In-Place Manipulation
+*Start Date: May 28, 2026*
 
 **Goal:** Master basic data structures, optimize lookups, and manipulate data without extra space. These are foundational for almost all complex problems.
 
